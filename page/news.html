@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="../col/style.css">
+</head>
+<body>
+    <nav>
+        <div class = "main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="../img/comlogo.png" alt="My Career">
+            </a>
+            <div class="nav-links">
+                <ul class="flex">
+                    <li><a href="../page/main.html">Home</a></li>
+                    <li><a href="../page/career.html">Career</a></li>
+                    <li><a href="../page/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+ 
+    </nav>
+    
+    <main>
+        
+        <div class="cards-container container flex" id="cards-container"></div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">fhfdskljfdoihdh hjfhdsbfkb sdjdbjbkdbr</p>
+            </div>
+        </div>
+    </template>
+    <script src="../script/newsscript.js"></script>
+</body>
+</html>

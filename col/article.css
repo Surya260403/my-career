@@ -1,0 +1,29 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 4px 8px white; /* White box shadow */
+  padding: 10px;
+}
+
+.nav-links {
+  margin-left: auto; /* Pushes the nav links to the right */
+}
+
+.nav-links ul.flex {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links ul.flex li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px; /* Increase padding for larger clickable area */
+  border-radius: 5px; /* Optional: rounded corners */
+}
+
+.nav-links ul.flex li a:hover {
+  background-color: lightgray; /* Optional: background color on hover */
+}

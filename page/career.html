@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Options After 10th and 12th</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="../col/career.css">
+    <!-- Font and Icon Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="../img/comlogo.png" alt="My Career">
+            </a>
+            <div class="nav-links"> 
+                <ul class="flex">
+                    <li><a href="../page/main.html">Home</a></li>
+                    <li><a href="../page/news.html">News</a></li>
+                    <li><a href="../page/contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Explore Your Career Options After 12th</h2>
+        </div>
+    </section>
+
+    <!-- Search and Filter -->
+    <section class="search-filter">
+        <input type="text" id="searchBar" placeholder="Search for a career..." onkeyup="filterCareers()">
+        <select id="streamFilter" onchange="filterCareers()">
+            <option value="all">All Streams</option>
+            <option value="science">Science</option>
+            <option value="commerce">Commerce</option>
+            <option value="arts">Arts</option>
+            <option value="vocational">Vocational</option>
+        </select>
+    </section>
+
+    <!-- Career Options Section -->
+    <section id="career-options">
+        <!-- Science Career Options -->
+        <div class="career-category" id="science">
+            <h3>Science Careers</h3>
+            <!-- More Button -->
+            <button class="more-btn" onclick="location.href='../../back-end/fetch_data_science.php'" id="">More</button>
+        </div>
+
+        <!-- Commerce Career Options -->
+        <div class="career-category" id="commerce">
+            <h3>Commerce Careers</h3>
+            <!-- More Button -->
+            <button class="more-btn" onclick="location.href='../../back-end/fetch_data_commerce.php'">More</button>
+        </div>
+
+        <!-- Arts Career Options -->
+        <div class="career-category" id="arts">
+            <h3>Arts Careers</h3>
+            <!-- More Button -->
+            <button class="more-btn" onclick="location.href='../../back-end/fetch_data_arts.php'">More</button>
+        </div>
+
+        <!-- Vocational Career Options -->
+        <div class="career-category" id="vocational">
+            <h3>Vocational Careers</h3>
+            <!-- More Button -->
+            <button class="more-btn" onclick="location.href='../../back-end/fetch_data_vocational.php'">More</button>
+        </div>
+        <div class="career-category" id="sports">
+            <h3>Sports Careers</h3>
+            <!-- More Button -->
+            <button class="more-btn" onclick="location.href='../../back-end/fetch_data_sports.php'">More</button>
+        </div>
+        <div class="career-category" id="law">
+            <h3>Law Careers</h3>
+            <!-- More Button -->
+            <button class="more-btn" onclick="location.href='../../back-end/fetch_data_law.php'">More</button>
+        </div>
+    </section>
+    <!-- Link to External JavaScript -->
+    <script src="../script/career.js"></script>
+</body>
+</html>

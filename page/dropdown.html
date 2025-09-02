@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Dropdown Navigation</title>
+    <link rel="stylesheet" href="../col/dropdown.css">
+</head>
+<body>
+    <div class="dropdown-container">
+        <label for="pageSelect">Choose a page:</label>
+        <select id="pageSelect">
+            <option value="" disabled selected>Select an option</option>
+            <option value="https://www.google.com">Google</option>
+            <option value="https://www.youtube.com">YouTube</option>
+            <option value="https://www.github.com">GitHub</option>
+            <option value="https://www.reddit.com">Reddit</option>
+            <option value="https://www.stackoverflow.com">Stack Overflow</option>
+        </select>
+        
+        <div class="options-container">
+            <input type="checkbox" id="newTab" checked>
+            <label for="newTab">Open in new tab</label>
+
+            <button id="resetButton">Reset Selection</button>
+            <button id="homeButton">Go to Homepage</button>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="../script/dropdown.js"></script>
+</body>
+</html>

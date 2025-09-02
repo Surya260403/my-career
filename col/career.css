@@ -1,0 +1,149 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+
+/* Header Styles */
+
+
+/* Hero Section */
+
+
+/* Search and Filter */
+.search-filter {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.search-filter input,
+.search-filter select {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+.active{
+  color: red;
+}
+/* Career Options */
+#career-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.career-category {
+    background: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    width: 45%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.career-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.career-item:last-child {
+    border-bottom: none;
+}
+
+
+body{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 150px 50px;
+background: linear-gradient(to right, #e0f7fa, #fffde7);
+height: 100vh;
+width: 100%;
+}
+a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+  }
+  
+  nav {
+    background-color: #f3faff;
+    box-shadow: 0 0 4px #bbd0e2;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    font-size: 17px;
+  }
+  
+  .main-nav {
+    justify-content: space-between;
+    padding-block: 8px;
+  }
+  
+  .company-logo img {
+    width: 120px;
+  }
+  
+  .nav-links ul {
+    gap: 16px;
+  }
+  
+  .hover-link {
+    cursor: pointer;
+  }
+  
+  .hover-link:hover {
+    color: var(--secondary-text-color);
+  }
+  
+  .hover-link:active {
+    color: red;
+  }
+  
+  .nav-item.active {
+    color: var(--accent-color);
+  }
+  /* CSS for "More" button */
+.more-btn {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove default borders */
+  padding: 10px 20px; /* Padding for spacing */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make it inline */
+  font-size: 16px; /* Font size */
+  margin: 10px 0; /* Space between button and other elements */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  float: center ; /* Align button to the right */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.more-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+  
+  
